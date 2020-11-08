@@ -2,14 +2,14 @@
     "questions": [
         {
             "id": 1,
-            "question": "Which of the following input type only allow number?",
+            "question": "How do you create a function in JavaScript?",
             "options": [
-                "text",
-                "number",
-                "int",
-                "submit"
+                "function:myFunction()",
+                "function = myFunction()",
+                "function myFunction()",
+                "myFunction()"
             ],
-            "answer": 2
+            "answer": 3
         },
         {
             "id": 2,
@@ -24,11 +24,11 @@
         },
         {
             "id": 3,
-            "question": "Where is the correct place to insert a JavaScript?",
+            "question": "How do you call a function named myFunction?",
             "options": [
-                " The <head> section",
-                " Both the <head> section and the <body> section are correct",
-                " The <body> section"
+                "call function myFunction()",
+                "myFunction()",
+                "call myFunction()"
             ],
             "answer": 2
         },
@@ -44,12 +44,63 @@
         },
         {
             "id": 5,
+            "question": "Where is the correct place to insert a JavaScript?",
+            "options": [
+                " The <head> section",
+                " The <body> section",
+                " Both the <head> section and the <body> section are correct"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 6,
+            "question": "Which of the following input type only allow number?",
+            "options": [
+                "text",
+                "number",
+                "int",
+                "submit"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 7,
             "question": "The external JavaScript file must contain the <script> tag.",
             "options": [
                 "True",
                 "False"
             ],
             "answer": 1
+        },{
+            "id": 8,
+            "question": "How do you round the number 7.25, to the nearest integer?",
+            "options": [
+                "Math.rnd(7.25)",
+                "rnd(7.25)",
+                "Math.round(7.25)",
+                "round(7.25)"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 9,
+            "question": "JavaScript is the same as Java.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 10,
+            "question": "Which event occurs when the user clicks on an HTML element?",
+            "options": [
+                "onmouseover",
+                "onmouseclick",
+                "onchange",
+                "onclick"
+            ],
+            "answer": 4
         }
     ]
 }
